@@ -1,0 +1,19 @@
+QUESTION :  Explain the role of the following key properties in the Flexbox layout model
+
+1. justify-content
+2. align-items
+3. gap
+4. flex-direction
+5. flex-wrap
+
+ANSWER : The role of the following key properties in the Flexbox layout model are :
+
+1. justify-content : It is used to align elements in the main axis direction whether it is x-axis or y-axis.It accepts values as flex-end, flex-start, center, space-around, space-between, space-evenly.
+
+2. align-items : It is used to align elements on the cross-axis or say perpendicular direction to the main axis. It accepts values same as justify-content. 
+
+3. gap : It is used to put some space between elements. It accepts value in pixels.
+
+4. flex-direction : It is used to change the main axis of the display:flex; whose default direction is x-direction or say row. But you can change it's values to row-reverse, column and column-reverse.
+
+5. flex-wrap : It is used to wrap the contents to their original size by adding extra elements in additional row. Usually ,all the contents comes in the same row no matter what their size is and to slove this problem we use flex-wrap property which accepts value as nowrap ,wrap ,wrap-reverse.
