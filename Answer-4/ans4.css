@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.full {
+    background-color:#202842;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+}
+
+.main {
+    width:962px;
+    height:427px;
+    background-color: #F4F2FD;
+    padding:32px, 48px, 32px, 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+}
+
+.card {
+    width:262px;
+    height:363px;
+    border-radius:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 32px; */
+    box-shadow: 0px 1px 10px 0px #00000040;
+}
+
+.basic {
+    background-color: #202842;
+    color: #FFFFFF;
+}
+
+.free ,.pro {
+    background-color: #FFFFFF;
+    color: #202842;
+}
+
+.buttonb {
+    background-color: #202842;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius:50px;
+    margin: auto;
+    padding: 6px 21px 8px 21px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.circle-check-icon {
+    font-size: 31px; 
+    color: #202842;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    width: 198px;
+    height: 299px;
+    padding-left:6px;
+}
+
+.big {
+    font-size: 1.9em;
+    font-weight: 600;
+}
+
+.small {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.whit {
+    color: #FFFFFF;
+}
+
+.buttonw {
+    background-color: #FFFFFF;
+    color: #202842;
+    text-align: center;
+    border-radius:50px;
+    margin: auto;
+    padding: 6px 21px 8px 21px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.medium {
+    font-weight: 500;
+    font-size: 1.9em;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
